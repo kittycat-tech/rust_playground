@@ -28,9 +28,9 @@ fn main() {
             }
         };
 
-        println!("Your friend's guess is: {guess}");
+        println!("Your guess is: {guess}");
 
-        println!("Now let's check if your friend's guess matches the secret number.");
+        println!("Now let's check if your guess matches the secret number.");
 
         match guess.cmp(&secret_number) {
             Ordering::Less => println!("That is less than the secret number! Try again: "),
