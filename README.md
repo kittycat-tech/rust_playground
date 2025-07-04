@@ -26,3 +26,5 @@ multiple times.
 Cargo understands Semantic Versioning (sometimes called SemVer), which is a standard for writing version numbers. The specifier 0.8.5 is actually shorthand for ^0.8.5 , which means any version that is at least 0.8.5 but below 0.9.0.
 
 - note: The next time you run cargo build , Cargo will update the registry of crates available and reevaluate your rand requirements according to the new version you have specified.
+
+My First day play: https://github.com/kittycat-tech/rust_playground/blob/main/secret_number_game/src/main.rs
