@@ -7,6 +7,7 @@ Commands:
 - cargo init (to initiate files with gitignore and lock)
 - cargo build (to build and also download packages in toml file)
 - cargo run (to run the project)
+- cargo clean (to clean from caches because my code was correct but still failed to build, due to uncleaned previous wrong codes. Can't believe this thing is real.)
 
 You need to click save before re-running cargo or else, you continue to get your previous result
 
