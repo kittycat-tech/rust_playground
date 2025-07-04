@@ -5,16 +5,14 @@ use std::io;
 fn main() {
     println!("Generating your random secret number!!");
 
-    let secret_number = rand::thread_rng().gen_range(1..=100);
+    let secret_number = rand::thread_rng().gen_range(1..=20);
 
-    println!("Your random secret number is: {secret_number}");
+    println!("Your random secret number is generated.");
 
-    println!(
-        "Now it's your friend's turn to guess your secret number! Ask your friend to enter his/her guess. "
-    );
+    println!("Now it's your turn to guess the secret number! Time to play!");
 
     loop {
-        println!("The secret number is a valid integer between 1 to 100");
+        println!("The secret number is a valid integer between 1 to 20");
 
         let mut guess = String::new();
 
@@ -25,7 +23,7 @@ fn main() {
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,
             Err(_) => {
-                println!("Please type a valid number from 1 to 100!");
+                println!("Please type a valid number from 1 to 20!");
                 continue;
             }
         };
