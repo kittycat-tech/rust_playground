@@ -1,5 +1,7 @@
 # rust_playground
-Playing rust for fun
+Playing rust for fun!
+
+My Rust learning journal: https://github.com/kittycat-tech?tab=projects
 
 RustBook source: https://www.scs.stanford.edu/~zyedidia/docs/rust/rust_book.pdf
 
